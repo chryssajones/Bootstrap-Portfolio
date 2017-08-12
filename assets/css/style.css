@@ -79,3 +79,30 @@ h2, h3 {
 .social {
 	margin: auto;
 }
+
+/* portfolio page */
+
+.work {
+  width: 274px;
+  margin: 20px;
+ }
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: relative;
+  bottom: 100px;
+  width: 100%;
+  padding: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
