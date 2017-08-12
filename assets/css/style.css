@@ -84,7 +84,7 @@ h2, h3 {
 
 .work {
   width: 274px;
-  margin: 20px;
+  padding: 10px;
  }
 
 .work img {
@@ -105,4 +105,49 @@ h2, h3 {
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
+}
+
+/* contact page */
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+#message {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+  border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #999;
 }
