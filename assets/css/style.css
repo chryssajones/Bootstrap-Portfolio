@@ -1,0 +1,81 @@
+/*these styles will modify the bootstrap defaults*/
+
+body {
+	background: url(../images/rockywall_@2X.png);
+}
+
+h1 {
+	color: #4aaaaf;
+	font-weight: 700;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 30px;
+	line-height: 49px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #ddd;
+}
+
+h2, h3 {
+	color: #4aaaaf;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #eee;
+}
+
+.navbar-default {
+	background: #fff;
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 0px;
+	color: #777;
+	font-size: 20px;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	font-weight: 700;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	text-decoration: none;
+
+}
+
+.emptybox {
+	padding: 15px 0;
+}
+
+.main-section {
+	background: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.education {
+	font-size: 14px;
+}
+
+#auth-image {
+	float: left;
+	margin: 20px 20px 20px 0px;
+}
+
+.sidebar {
+	background: #fff;
+	border-radius: 10px;
+	padding: 20px;	
+	margin-bottom: 20px;
+}
+
+.footer {
+  padding: 10px 0;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+}
+
+.social {
+	margin: auto;
+}
